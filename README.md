@@ -1,6 +1,6 @@
 # System Capacity & Care Load Analytics for Unaccompanied Children
 
-End-to-end project: **Jupyter analysis → Streamlit dashboard**.
+End-to-end project: 
 
 ## What is in this folder
 
@@ -16,7 +16,7 @@ End-to-end project: **Jupyter analysis → Streamlit dashboard**.
 
 ---
 
-## Step 1 — Set up Python (once)
+## Step 1 — Set up Python 
 
 ```bash
 cd uac_project
@@ -41,7 +41,7 @@ streamlit run app.py
 Opens at http://localhost:8501. Controls (left sidebar): date range, Daily/Weekly/Monthly granularity, load and flow metric toggles, 7/14-day rolling averages, strain-threshold percentile, optional CSV upload for newer data.
 Tabs: System load overview · CBP vs HHS · Net intake & backlog · Stress & volatility · Data quality · Data explorer (with CSV download).
 
-## Step 4 — Deploy (free, Streamlit Community Cloud)
+## Step 4 — Deploy 
 
 1. Create a **public GitHub repo** and upload: `app.py`, `requirements.txt`, and `HHS_Unaccompanied_Alien_Children_Program.csv` (all in the repo **root**). Optionally add the notebook and README.
    ```bash
