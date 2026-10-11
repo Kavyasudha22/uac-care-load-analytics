@@ -1,0 +1,5 @@
+# For running the Jupyter notebook locally (includes everything in requirements.txt)
+-r requirements.txt
+matplotlib>=3.7
+seaborn>=0.12
+jupyter
